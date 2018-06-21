@@ -74,7 +74,7 @@ countVowels('aeeeeeiiiiuuuueee')
 // fibonacci
 
 function fibonacci(num) {
-  if (num <= 1) return 1;
+  if (num < 2) return 1;
 
   return fibonacci(num - 1) + fibonacci(num - 2);
 }
@@ -88,3 +88,11 @@ let isPalindrome = function(x) {
       }
   } return true
 };
+
+
+// FizzBuzz
+
+//Write a program that prints the numbers from 1 to 100. 
+//But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. 
+//For numbers which are multiples of both three and five print “FizzBuzz”.
+
